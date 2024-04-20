@@ -11,7 +11,7 @@ import java.net.URISyntaxException;
 import java.util.Collection;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/v1")
 public class CategoryController {
 
     private CategoryRepository categoryRepository;
